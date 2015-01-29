@@ -1,0 +1,25 @@
+datasource=/datadir
+datadest=/var/lib/mysql
+datatar=/dados
+datadump=/dados
+datausb=/dadosusb
+datauser=root
+datapasswd=cp15sa
+datahost=192.168.11.1
+datasshport=22
+storedbackups=0
+storedthreshold=80
+mailnotify=helkmut\@gmail.com
+datatar2=/dados1
+datatar3=/dados2
+
+
+
+# --- Additional Info --- #
+
+storedbackups=0 -> preserve 01 datadir in datatar and datausb(if no left space on device);
+storedbackups=1 -> preserv 02 datadir in datatar and datausb(if no left space on device);
+storedbackups=2 -> preserve 03 datadir in datatar and datausb(if no left space on device);
+storedbackups=3 -> preserve 04 datadir in datatar and datausb(if no left space on device);
+
+# --- EOF --- #
